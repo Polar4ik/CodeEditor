@@ -1,0 +1,129 @@
+[gd_resource type="Theme" load_steps=26 format=3 uid="uid://dxxo6yftwqajq"]
+
+[ext_resource type="FontFile" uid="uid://c3xpgwhsy0nn1" path="res://assets/fonts/CascadiaCodePL-Light.otf" id="1_3od2o"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_orj2w"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_0uh4f"]
+bg_color = Color(0.137738, 0.123169, 0.148663, 1)
+
+[sub_resource type="StyleBoxLine" id="StyleBoxLine_p5i1u"]
+color = Color(0.160784, 0.156863, 0.192157, 1)
+thickness = 4
+
+[sub_resource type="ImageTexture" id="ImageTexture_n67yh"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dysuy"]
+bg_color = Color(0.141176, 0.12549, 0.152941, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.156863, 0.152941, 0.188235, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_mjq24"]
+bg_color = Color(0.137738, 0.123169, 0.148663, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.160784, 0.156863, 0.192157, 1)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_u4pj7"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_tqv4e"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_we1np"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6rulv"]
+content_margin_left = 3.0
+content_margin_right = 5.0
+bg_color = Color(0.137738, 0.123169, 0.148663, 1)
+border_width_right = 3
+border_color = Color(0.160784, 0.156863, 0.192157, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_f0ccu"]
+content_margin_left = 2.0
+content_margin_right = 5.0
+bg_color = Color(0.984314, 0.733333, 0.678431, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sva05"]
+content_margin_left = 3.0
+content_margin_right = 5.0
+bg_color = Color(0.137738, 0.123169, 0.148663, 1)
+border_width_right = 3
+border_color = Color(0.160784, 0.156863, 0.192157, 1)
+
+[sub_resource type="ImageTexture" id="ImageTexture_y706l"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_5mc7t"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_gbpp4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ix8qu"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3kru7"]
+bg_color = Color(0.137738, 0.123169, 0.148663, 1)
+border_color = Color(0.160784, 0.156863, 0.192157, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_od2hx"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_w4i0v"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_fiwrd"]
+bg_color = Color(0.933333, 0.52549, 0.584314, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uvjli"]
+bg_color = Color(0.984314, 0.733333, 0.678431, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ficb2"]
+bg_color = Color(0.984314, 0.733333, 0.678431, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ak7su"]
+content_margin_left = 7.0
+bg_color = Color(0.160784, 0.156863, 0.192157, 0.560784)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_wfmhi"]
+
+[resource]
+default_font = ExtResource("1_3od2o")
+default_font_size = 16
+CodeEdit/styles/focus = SubResource("StyleBoxEmpty_orj2w")
+CodeEdit/styles/normal = SubResource("StyleBoxFlat_0uh4f")
+HSeparator/styles/separator = SubResource("StyleBoxLine_p5i1u")
+HSplitContainer/icons/grabber = SubResource("ImageTexture_n67yh")
+Panel/styles/panel = SubResource("StyleBoxFlat_dysuy")
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_mjq24")
+TabBar/styles/tab_focus = SubResource("StyleBoxEmpty_u4pj7")
+TabContainer/styles/panel = SubResource("StyleBoxEmpty_tqv4e")
+TabContainer/styles/tab_focus = SubResource("StyleBoxEmpty_we1np")
+TabContainer/styles/tab_hovered = SubResource("StyleBoxFlat_6rulv")
+TabContainer/styles/tab_selected = SubResource("StyleBoxFlat_f0ccu")
+TabContainer/styles/tab_unselected = SubResource("StyleBoxFlat_sva05")
+Tree/colors/children_hl_line_color = Color(0.933333, 0.52549, 0.584314, 1)
+Tree/colors/font_color = Color(0.933333, 0.52549, 0.584314, 1)
+Tree/colors/font_selected_color = Color(0.984314, 0.733333, 0.678431, 1)
+Tree/colors/parent_hl_line_color = Color(0.984314, 0.733333, 0.678431, 1)
+Tree/colors/relationship_line_color = Color(0.933333, 0.52549, 0.584314, 1)
+Tree/constants/draw_guides = 0
+Tree/icons/arrow = SubResource("ImageTexture_y706l")
+Tree/icons/arrow_collapsed = SubResource("ImageTexture_5mc7t")
+Tree/icons/arrow_collapsed_mirrored = SubResource("ImageTexture_gbpp4")
+Tree/icons/checked = null
+Tree/icons/indeterminate = null
+Tree/icons/select_arrow = null
+Tree/icons/unchecked = null
+Tree/icons/updown = null
+Tree/styles/focus = SubResource("StyleBoxEmpty_ix8qu")
+Tree/styles/panel = SubResource("StyleBoxFlat_3kru7")
+Tree/styles/selected = SubResource("StyleBoxEmpty_od2hx")
+Tree/styles/selected_focus = SubResource("StyleBoxEmpty_w4i0v")
+VScrollBar/styles/grabber = SubResource("StyleBoxFlat_fiwrd")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxFlat_uvjli")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxFlat_ficb2")
+VScrollBar/styles/scroll = SubResource("StyleBoxFlat_ak7su")
+VScrollBar/styles/scroll_focus = SubResource("StyleBoxEmpty_wfmhi")
